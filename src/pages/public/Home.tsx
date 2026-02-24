@@ -13,7 +13,7 @@ import type { Product } from '@/types';
 // Hero Section
 function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden ">
       {/* Background */}
       <div className="absolute inset-0">
         <img
@@ -25,7 +25,7 @@ function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative container mx-auto px-4 py-20">
+      <div className="relative container mx-auto px-4 py-20 mt-16">
         <motion.div
           initial="hidden"
           animate="visible"
